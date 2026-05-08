@@ -5,6 +5,7 @@ ruby "3.4.1"
 
 gem "rails",           "~> 8.0"
 gem "propshaft"
+gem "dartsass-rails",  "~> 0.5"
 gem "importmap-rails", "~> 2.1"
 gem "turbo-rails",     "~> 2.0"
 gem "stimulus-rails",  "~> 1.3"
