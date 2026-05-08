@@ -79,18 +79,14 @@ GEM
       public_suffix (>= 2.0.2, < 8.0)
     ansi (1.6.0)
     ast (2.4.3)
-    autoprefixer-rails (10.4.21.0)
-      execjs (~> 2)
     backport (1.2.0)
     base64 (0.3.0)
+    bcrypt (3.1.22)
     benchmark (0.5.0)
     bigdecimal (4.1.2)
     bindex (0.8.1)
     bootsnap (1.24.1)
       msgpack (~> 1.2)
-    bootstrap-sass (3.4.1)
-      autoprefixer-rails (>= 5.2.1)
-      sassc (>= 2.0.0)
     builder (3.3.0)
     capybara (3.40.0)
       addressable
@@ -116,7 +112,6 @@ GEM
     drb (2.2.3)
     erb (6.0.4)
     erubi (1.13.1)
-    execjs (2.10.1)
     ffi (1.17.4-aarch64-linux-gnu)
     ffi (1.17.4-aarch64-linux-musl)
     ffi (1.17.4-arm-linux-gnu)
@@ -356,8 +351,6 @@ GEM
       google-protobuf (~> 4.31)
     sass-embedded (1.99.0-x86_64-linux-musl)
       google-protobuf (~> 4.31)
-    sassc (2.4.0)
-      ffi (~> 1.9)
     securerandom (0.4.1)
     selenium-webdriver (4.43.0)
       base64 (~> 0.2)
@@ -443,8 +436,8 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
+  bcrypt (~> 3.1)
   bootsnap (~> 1.18)
-  bootstrap-sass (~> 3.4)
   capybara (~> 3.40)
   dartsass-rails (~> 0.5)
   debug
